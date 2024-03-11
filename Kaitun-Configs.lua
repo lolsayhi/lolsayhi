@@ -4,10 +4,11 @@ getgenv().Configs = {
     SkipFarm = true,
     HopIfCantKill = true,
     BlockAllHop = false,
-
-    FastAttack = true,
-    NewFastAttack = true,
-    NoAttackAnimation = true,
+    
+    _G.Esarn_Fast = true
+    FastAttack = false,
+    NewFastAttack = false,
+    NoAttackAnimation = false,
     
     StartKaitun = true,
     -- World 1
@@ -87,7 +88,7 @@ getgenv().Configs = {
     
     -- CPU
     
-    LockFPS = 120,
+    LockFPS = 20,
     LockFPSNow = true,
     WhiteScreen = false
 }
